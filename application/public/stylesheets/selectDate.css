@@ -1,0 +1,63 @@
+BODY {
+	font-family: Calibri;
+	font-size: 14pt;
+	color: #A04C4D;
+}
+
+#content {
+	position: relative;
+	background-color: #F35BD5;
+	top: 20px;
+	left: 20px;
+	width: 450px;
+	height: 500px;
+}
+
+#logout {
+	position: absolute;
+	left: 400px;
+	top: 40px;
+	width: 50px;
+	heigth: 20px;
+	background-color: lightgrey;
+	border: thin #000000;
+}
+
+h1 {
+	font-family: Calibri;
+	font-size: 20pt;
+	text-align: center;
+}
+
+#bttn {
+	position: absolute;
+	background-color: #000000;
+	left: 380px;
+	margin-left: 10px;
+	padding-left: 10px;
+	width: 50px;
+	top: 450px;
+	height: 30px;
+}
+
+#scrolldiv {
+	background-color: #F57CDD;
+	overflow: auto;
+	top: 40px;
+	left: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 250px;
+	width: 430px;
+}
+
+#back {
+	position: absolute;
+	top: 450px;
+	left: 30px;
+	padding-left: 10px;
+	margin-left: 10px;
+	width: 50px;
+	height: 30px;
+	background-color: #000000;
+}

@@ -1,0 +1,54 @@
+BODY {
+	font-family: Calibri;
+	font-size: 14pt;
+	color: #A04C4D;
+}
+
+h1 {
+	font-family: Calibri;
+	font-size: 20pt;
+	text-align: center;
+}
+
+#content {
+	position: relative;
+	background-color: #F35BD5;
+	top: 20px;
+	left: 20px;
+	width: 450px;
+	height: 500px;
+}
+
+#ppl {
+	height: auto;
+	margin-left: 10px;
+	width: 80px;
+}
+
+#cash {
+	height: auto;
+	margin-left: 10px;
+	width: 80px;
+}
+
+#bttn {
+	position: absolute;
+	background-color: #000000;
+	left: 350px;
+	margin-left: 10px;
+	padding-left: 10px;
+	width: 50px;
+	top: 450px;
+	height: 30px;
+}
+
+#back {
+	position: absolute;
+	top: 450px;
+	left: 30px;
+	padding-left: 10px;
+	margin-left: 10px;
+	width: 50px;
+	height: 30px;
+	background-color: #000000;
+}

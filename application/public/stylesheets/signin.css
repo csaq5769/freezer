@@ -1,0 +1,62 @@
+BODY {
+	font-family:Calibri;
+	font-size: 14pt;
+	color: #A04C4D;
+}
+
+#content {
+	position: relative;
+	background-color: #F35BD5;
+	top: 20px;
+	left: 20px;
+	width: 450px;
+	height: 500px;
+}
+
+#directlink {
+	position: absolute;
+	left: 400px;
+	width: 50px;
+	height: 20px;
+	background-color: lightgrey;
+}
+
+h1 {
+	font-family: Calibri;
+	font-size: 20pt;
+	text-align: center;
+}
+
+#usrname {
+	top: 125px;
+	left: 20px;
+	padding-left: 10px;
+	margin-left: 10px;
+	width: 200px;
+	height: 20px;	
+	background-color: #FFFFFF;
+}
+
+#passwrd {
+	top: 175px;
+	left: 20px;
+	padding-left: 10px;
+	margin-left: 10px;
+	width: 200px;
+	height: 20px;
+	background-color: #FFFFFF;
+}
+
+#bttn {
+	background-color: #000000;
+	left: 380px;
+	margin-left: 10px;
+	padding-left: 10px;
+	width: 50px;
+	top: 450px;
+	margin-top: 20px;
+	height: 30px;
+}
+	
+	
+	

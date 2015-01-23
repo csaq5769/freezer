@@ -1,0 +1,82 @@
+BODY {
+	font-family: Calibri;
+	font-size: 14pt;
+	color: #A04C4D;
+}
+
+#logout {
+	position: absolute;
+	left: 400px;
+	top: 40px;
+	width: 50px;
+	heigth: 20px;
+	background-color: lightgrey;
+	border: thin #000000;
+}
+
+#infos {
+	position: absolute;
+	left: 400px;
+	top: 61px;
+	width: 50px;
+	heigth: 20px;
+	background-color: lightgrey;
+	border: thin #000000;
+}
+
+#content {
+	position: relative;
+	background-color: #F35BD5;
+	top: 20px;
+	left: 20px;
+	width: 450px;
+	height: 500px;
+}
+
+h1 {
+	font-family: Calibri;
+	font-size: 20pt;
+	text-align: center;
+}
+
+#region {
+	top: 125px;
+	left: 20px;
+	padding-left: 10px;
+	margin-left: 10px;
+	width: 200px;
+	height: 20px;	
+	background-color: #FFFFFF;
+}
+
+#lift {
+	top: 170px;
+	left:20px;
+	padding-left: 10px;
+	margin-left: 10px;
+	width: 200px;
+	height: 20px;
+	background-color: #FFFFFF;
+}
+
+#time {
+	top: 215px;
+	left: 20px;
+	padding-left: 10px;
+	margin-left: 10px;
+	width: 200px;
+	height: 20px;
+	background-color: #ffffff;
+}
+
+#bttn {
+	background-color: #000000;
+	left: 380px;
+	margin-left: 340px;
+	padding-left: 10px;
+	width: 80px;
+	top: 450px;
+	margin-top: 50px;
+	height: 30px;
+}
+	
