@@ -19,7 +19,7 @@ public class User extends Model {
 	//private Interests interests;
 	//private Lift lift;
 	
-	private String confirmation;
+	private String confirmUser;
 	@Formats.NonEmpty
 	private Boolean validated = false;
 	
@@ -120,7 +120,7 @@ public class User extends Model {
             return false;
         }
         
-        user.confirmation = null;
+        user.confirmUser = null;
         user.validated = true;
         user.save();
         
