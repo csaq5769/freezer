@@ -57,6 +57,9 @@ public class Application extends Controller {
             return redirect(routes.Application.index());
         }
     }
+
+    
+    
     
     //if user is already a member of freezer
     public static class Login {
@@ -93,6 +96,5 @@ public class Application extends Controller {
     	    
     	    return null;
         }
-    }
     }
 }
