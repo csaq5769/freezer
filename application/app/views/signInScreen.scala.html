@@ -40,15 +40,16 @@ and display error message if validation failed: (direktly before above heading)
         	<h1>Please sign in :)</h1></br>
         	</br>
         	Username:</br>
-        	<div class="formFieldLabel" id="usrname">
-            	<label for="username">smartguy</label></div></br>
+        	<div id="usrname">
+            	<input type="username" name="username" placeholder="smartguy" value="@form("username").value"></div></br>
         	Password:</br>
         	<div class="formFieldfLabel" id="passwrd">
-            	<label for="password">password</label></div>
-        	<div id="bttn"><a href="@routes.Application.timeandplace()">sign in</a></div>
+            	<input type="password" name="password" placeholder="secretPassword"></div>
+        	<div id="bttn"><button type="submit">sign in</button></div>
         	
         	
         </div>
+        </link>
     </body>
 </html>
 	

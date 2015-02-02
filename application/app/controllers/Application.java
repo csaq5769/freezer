@@ -11,10 +11,7 @@ public class Application extends Controller {
     
     @Security.Authenticated(Secured.class)
     public static Result index() {
-        return ok(index.render(
-            "Freezer - Find your Dream Date",
-            User.find.byId(request().username()) //access the currently logged in user with request.username()
-            ));
+        return ok(index.render("Freezer - Find your Dream Date", User.find.byId(request().username()))); //access the currently logged in user with request.username()
     } 
     
     public static Result signin() {
@@ -26,7 +23,7 @@ public class Application extends Controller {
     }
     
     public static Result signUp(){
-    	return ok(registerScreen.render(form(Login.class));
+    	return ok(registerScreen.render(form(Login.class)));
     }
     
     public static Result selectDate() {
@@ -57,9 +54,6 @@ public class Application extends Controller {
             return redirect(routes.Application.index());
         }
     }
-
-    
-    
     
     //if user is already a member of freezer
     public static class Login {
